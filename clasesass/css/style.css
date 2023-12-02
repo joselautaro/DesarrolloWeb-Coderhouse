@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(41, 36, 32);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav a {
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: xx-large;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.footer, footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .tarjetas {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main .tarjetas:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+main .tarjetas img {
+  width: 100%;
+  height: fit-content;
+}
+
+/*# sourceMappingURL=style.css.map */
